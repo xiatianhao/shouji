@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手机端</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font_ydd3ojjiaz/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+		<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+</head>
+<body>
+	<div class="head clearfix">
+		<div class="gWidth">
+			<div class="clearfix">
+				<p class="p">
+					<span class="iconfont icon-zuojiantou h_l"></span>
+					<span class="sa">Woman,Dresses</span>
+				</p>
+				<p class="pd">
+						<span class="sd">3</span>
+						<span class="iconfont icon-gouwuche h_r"></span>
+				</p>
+			</div>
+			<div class="bor">
+				<input type="button" value="ADD TO WISHLIST" class="b_l">
+				<input type="button" value="ADD TO CART" class="b_r">
+			</div>
+		</div>
+	</div>
+	<div class="banner gWidth">
+		<img src="img.jpg" alt="">
+		<p class="b_b">
+			<span class="s1">Elegant Pink Dresses</span>
+			<span class="s2">$605,00</span>
+		</p>
+	</div>
+	<div class="content gWidth">
+		<span class="iconfont icon-iconfonticon02 c_l"></span>
+		<span class="c_r">Description</span>
+	</div>
+	<div class="gWidth content2">
+		<div class="c2_t">
+			<p class="iconfont icon-fenzu p1"> Colour :</p>
+			<p class="p2">Choose a colour for item</p>
+			<p class="p3">
+				<span class="f1"></span>
+				<span class="f2"></span>
+				<span class="f3"></span>
+			</p>
+		</div>
+		<div class="c2_b">
+			<p class="iconfont icon-yijia h1"> Size :</p>
+			<p class="h2">Size available for this item</p>
+			<ul class="ul">
+				<li>6</li>
+				<li class="action">8</li>
+				<li>10</li>
+				<li>12</li>
+				<li class="li3">14</li>
+			</ul>
+		</div>
+	</div>
+	<input type="button" value="Add to Cart" class="in3 gWidth">
+	<div class="foot gWidth">
+		<h3>SHARE ON</h3>
+		<ul >
+			<li class=" li1">
+				<span class="iconfont icon-gezi ss"></span>
+				<span class="s2">226</span>
+			</li>
+			<li class=" li2">
+				<span class="iconfont icon-f ss sc"></span>
+				<span class="s2">226</span>
+			</li>
+			<li class="li3">
+				<span class="iconfont icon-iconfonttencentweibo ss  sx"></span>
+				<span class="s2">226</span>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
